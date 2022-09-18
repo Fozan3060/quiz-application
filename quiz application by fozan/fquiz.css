@@ -1,0 +1,185 @@
+body{
+    padding: 0%;
+    margin: 0%;
+}
+/* all navbar styling below */
+.heading1{ border-bottom: 2px solid grey;
+    padding-bottom: -3%;
+    color: rgb(95, 8, 8);
+    font-family: 'Tangerine', serif;
+    text-shadow: 4px 4px 2px #aaa;
+    font-size: 2vw;
+   ;
+    letter-spacing: 0.6em;
+    display: flex;
+    justify-content: center;
+    
+}
+.mini2{
+    font-size: 2vw;
+}
+.navbar{margin-left: 1%;
+    height: 8vh;
+    font-size: 1.5vw;
+ 
+    margin-top: 0%;
+    color: rgb(255, 255, 255);
+
+    width:98%;
+    font-family: 'roboto';
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+}
+ .navbar::before{
+    width: 100%;
+    left: 0%;
+    right: 0%;
+    height: 8vh;
+    opacity: 0.7;
+    background-color:rgb(106, 106, 106);
+    position: absolute;
+    top: 0%;
+    content: '';
+    z-index: -1;
+    
+} 
+.navbar img{
+   width:3.5vw;height: 5vh;
+}
+.minihead1{
+    justify-content: space-around;
+    box-sizing: border-box;
+    display: flex;
+    width: 13%;
+    
+}
+.minihead1 div{
+    height: 10%;
+}
+.navbar div {
+    box-sizing: border-box;
+    height:100%;
+    display: flex;
+   align-items: center;
+}
+/* all main content styling */
+.mainbody{ 
+    display: flex;
+    height: 70vh;
+   
+   
+    justify-content: center;
+}
+.body1::after{
+    display: flex;
+    justify-content: center;
+    
+   left: 25%;
+    right: 0%;
+    width: inherit;
+    height: inherit;
+    opacity: 0.63;
+    background-color:rgb(255, 255, 255);
+    position: absolute;
+   
+    content: '';
+    z-index: -1;
+}
+.body1{ display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 0.5fr 2fr ;
+    width: 50%;
+     margin-top: 3%;
+   
+    justify-content: center;
+    height: 50vh;
+}
+body {
+    background-image: url("https://wallpapersmug.com/download/1920x1080/ac2477/call-of-duty-modern-warfare-2019.jpg");
+    background-position-y: 15%;
+    background-position-x: center;
+}
+    
+button{ display: block;
+    width: 20%;
+    height: 15%;
+    margin: auto;
+    margin-bottom: -4%;
+    margin-top: 3%;
+    text-align: center;
+    font-size: 1vw;
+    border-radius: 10px;
+    color: white;
+    background-color: black;
+}
+.body2{ 
+    grid-column-start: 1;
+    grid-column-end: 4;
+    border: 2px solid #66595c;
+}
+.body3{ 
+    grid-column-start: 1;
+    grid-column-end: 4;
+    border: 2px solid black;
+}
+.body4{
+    grid-column-start: 1;
+    grid-column-end: 4;
+    border: 2px solid black;
+}
+span
+/* all divs styling default set to display none */
+.qstart2 {
+    display: none;
+}
+.qstart3{
+    display: none;
+}
+p{ display: block;
+    font-family: 'roboto';
+    font-weight: 600;
+    text-align: center;
+    font-size: 1.5vw;
+}
+.qdiv2 {font-size: 1.5vw;
+    margin-top: 6%;
+    display: none;
+}
+
+.qdiv3 {font-size: 1.5vw;
+    margin-top: 6%;
+    display: none;
+}
+.qdiv4 {font-size: 1.5vw;
+    margin-top: 6%;
+    display: none;
+}
+.qdiv5 { text-align: center;
+    margin-top: 6%;
+    display: none;font-size: 1.5vw;
+}
+/* all labels */
+.qlabel2{
+    display: block;
+    padding: 2%;
+    margin-left: 10%;
+}
+.qlabel1{
+    display: block;
+    padding: 2%;
+    margin-left: 10%;
+}
+
+/* img of game */
+.gameimg{justify-content: center;
+   display: none;
+   
+}
+img{margin-bottom: 2%;
+    width: 15vw;
+    height: 15vh;
+}
+.qstart4{
+    display: none;
+}
